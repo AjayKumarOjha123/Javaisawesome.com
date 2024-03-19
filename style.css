@@ -1,0 +1,124 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+}
+#home-button{
+    color: #fdc632;
+}
+.navbar a:hover{
+    color: #fdc632;
+}
+.home-text{
+    text-align: center;
+    text-transform: uppercase;
+        font-family: "Rubik", sans-serif;
+            font-weight: 500;
+            color: #002347;
+            padding-top: 15%;
+                font-size: 2rem;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.learn-more:hover{
+    background-color: transparent;
+}
+.see-more:hover {
+    background-color: transparent;
+}
+
+.see-more{
+display: inline-block;
+    background: #fdc632;
+    padding: 0px 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    outline: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+
+}
+.learn-more{
+display: inline-block;
+    background: #002347;
+    padding: 0px 48px;
+    color: #fdc632;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.home-text{
+    z-index: 1;
+        min-height: 700px;
+        position: relative;
+        background: url(home-banner.jpg) no-repeat center;
+        background-size: cover;
+}
+.awesome{
+    font-size: 36px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+            font-size: 30px;
+            font-family: "Rubik", sans-serif;
+                font-weight: 700;
+                color: #002347;
+            
+}
+.awesome-text{
+    text-align: center;
+    padding-top: 10%;
+}
+.para{
+    font-size: 16px;
+        margin-bottom: 0px;
+        font-style: italic
+}
+
+.features-container{
+    height: 245px;
+    width: 365px;
+    padding: 20px;
+    background-color: #f9f9ff;
+}
+
+.features-container:hover{
+  border-style: solid;
+  border-color: #002347;
+  border-width: 1;
+  cursor: pointer;
+}
+.features-head{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
